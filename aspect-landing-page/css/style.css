@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body { 
+   background-color: black;
+   scroll-behavior: smooth;
+   color: #e4e4e4; 
+   font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.middle {
+    text-align: center;
+    color: #e4e4e4;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin-top: 25px;
+    line-height: 20pt;
+}
+
+#middle-text2 {
+    margin-top: 30px;
+}
+
+#middle-para {
+    margin-top: 30px;
+}
+
+#middle-bottom1 {
+    margin-top: 50px;
+}
+
+#middle-bottom2 {
+    margin-top: 30px;
+}
+
+.gold-text {
+    color: gold;
+}
+
+.white-text {
+    color: white;
+}
+
+.bottom-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#image1 {
+    transition: all 0.5s;
+}
+
+#image2 {
+    transition: all 0.5s;
+}
+
+#image1:hover {
+    cursor: pointer;
+    height: 300px;
+    transition: all 0.5s;
+}
+
+#image2:hover {
+    cursor: pointer;
+    height: 300px;
+    transition: all 0.5s;
+}
+
+.bottom {
+    text-align: center;
+    line-height: 25pt;
+
+}
+
+#bottom-text {
+    margin-top: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    color: gold;
+}
+
+i {
+    padding: 100px;
+    font-size: 150px;
+}
+
+.icon-text-header {
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
