@@ -2,12 +2,13 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 body { 
    background-color: black;
    scroll-behavior: smooth;
-   color: #e4e4e4; 
+   color: #e4e4e4;
    font-family: 'Roboto', sans-serif;
 }
 
@@ -18,13 +19,36 @@ body {
     margin-top: 25px;
 }
 
+.navbar {
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 25px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 25px;
+}
+
+a:hover {
+    color: gold;
+}
+
+.icon-space {
+    padding: 10px;
+}
 
 .middle {
     text-align: center;
     color: #e4e4e4;
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    margin-top: 25px;
+    margin-top: 50px;
     line-height: 20pt;
 }
 
@@ -52,9 +76,51 @@ body {
     color: white;
 }
 
-.bottom-images {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-images {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+}
+
+#buy-tag {
+    margin-top: 30px;
+}
+
+#btc {
+    transition: all 0.5s;
+    display: flex;
+    align-self: center;
+}
+
+#paypal {
+    transition: all 0.5s;
+    display: flex;
+    align-self: center;
+}
+
+#btc:hover {
+    transition: all 0.5s;
+    height: 100px;
+}
+
+#paypal:hover {
+    transition: all 0.5s;
+    height: 100px;
+}
+
+.bottom-image1 {
+    text-align: center;
+    display: block;
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
 }
@@ -63,13 +129,19 @@ body {
     transition: all 0.5s;
 }
 
-#image2 {
-    transition: all 0.5s;
-}
-
 #image1:hover {
     cursor: pointer;
     height: 300px;
+    transition: all 0.5s;
+}
+
+.bottom-image2 {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+#image2 {
     transition: all 0.5s;
 }
 
@@ -82,38 +154,29 @@ body {
 .bottom {
     text-align: center;
     line-height: 25pt;
-
 }
 
 #bottom-text {
     margin-top: 30px;
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    color: gold;
+#bottom-text2 {
+    margin-top: 30px;
 }
 
-i {
-    padding: 100px;
-    font-size: 150px;
+.icons  {
+    color: gold;
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
 }
 
 .icon-text-header {
-    font-size: 25px;
     color: white;
+    padding: 25px;
     font-family: 'Roboto', sans-serif;
-}
-
-.footer {
-    text-align: center;
-}
-
-.footer-images {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
 }
 
 
